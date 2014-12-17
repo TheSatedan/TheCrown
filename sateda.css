@@ -1,0 +1,444 @@
+body,td 
+{    
+    font-family: arial , Helvetica, sans-serif;    
+    color: black;    
+    font-size: 12px; 
+    font-weight: bold;
+
+}
+
+.smallFont
+{
+  font-size: 10px;
+  color: #acacac;
+  border-bottom: 1px solid #acacac;  
+}
+.borderColor
+{
+    background-image: url('Images/bkimage.jpg');
+    border-style:	solid;
+    border-width:	1px;	
+    border-color: 	orange;
+}
+
+.changeHome {
+
+    width: 100px;
+    height:100px;
+
+    background:transparent url('Images/homeWhite.png') center left no-repeat;
+}
+
+.changeHome:hover {
+    background-image: url('Images/homeBlack.png');
+}
+
+
+.backImage
+{
+    background: url(Images/bkimage.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-style:	solid;
+}
+
+.footerBack
+{
+    background-image: url("Images/bg-footer2.png");
+
+    background-repeat:repeat-x;
+    background-position: center bottom;
+}
+
+.footerCenter
+{
+    background-image: url("Images/bg-footer.png");
+    background-repeat:repeat-x;
+    background-repeat:repeat-y;
+        background-position: center bottom;
+}
+
+.brownBorder
+{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border-top: 3px solid #6c4326;  
+}
+
+.rightBorder
+{
+    border-right: 4px solid #59371f;  
+}
+
+.proWhite
+{
+    color: white;
+    font-size: 12px;
+}
+/* Let's import the lovely google font, please keep this line at the top of your stylesheet */
+
+
+
+/* Menu CSS */ 
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a{
+
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family: 'Capriola', sans-serif;
+
+}
+
+#cssmenu:before, #cssmenu:after, #cssmenu > ul:before, #cssmenu > ul:after 
+{
+
+    content: '';
+    display: table;
+
+}
+
+
+#cssmenu:after, #cssmenu > ul:after {
+
+    clear: both;
+
+}
+
+#cssmenu {
+
+    zoom:1;
+    height: 69px;
+    background: url(Images/bottom-bg.png) repeat-x center bottom;
+    border-radius: 2px;
+
+}
+
+#cssmenu ul{
+
+    background: url(Images/nav-bg.png) repeat-x 0px 4px;
+    height: 69px;
+
+}
+
+#cssmenu ul li{
+
+    float: left;
+    list-style: none;
+
+}
+
+#cssmenu ul li a{
+
+    display: block;
+    height: 37px;
+    padding: 22px 30px 0;
+    margin: 4px 2px 0;
+    border-radius: 2px 2px 0 0;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+    font-weight: 400;
+    opacity: .9;
+
+}
+
+#txtComputer {
+    font-size: 10px;
+}
+
+#txtArea {
+    font-size: 14px;
+    font-family: 'Capriola', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#cssmenu ul li:first-child a{
+
+    margin: 4px 2px 0 0;
+
+}
+
+#cssmenu ul li a:hover, #cssmenu ul li.active a{
+
+    background: url(Images/color.png) center bottom;
+    display: block;
+    height: 37px;
+    margin-top: 0px;
+    padding-top: 26px;
+    color: white;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+    opacity: 1;
+
+}
+
+
+.pizza {
+    display: block;
+    width: 150px;
+    height: 147px;
+    background-image: url(Images/pizza.png);
+    border: none;
+    text-decoration: none;
+}
+.pizza:hover {
+    background-image: url(Images/pizzaSelected.png);
+}
+
+.beverages {
+    display: block;
+    width: 150px;
+    height: 147px;
+    background-image: url(Images/beverages.png);
+    border: none;
+    text-decoration: none;
+}
+.beverages:hover {
+    background-image: url(Images/beveragesSelected.png);
+}
+
+.pasta {
+    display: block;
+    width: 150px;
+    height: 147px;
+    background-image: url(Images/pasta.png);
+    border: none;
+    text-decoration: none;
+}
+.pasta:hover {
+    background-image: url(Images/pastaSelected.png);
+}
+
+.sides {
+    display: block;
+    width: 150px;
+    height: 147px;
+    background-image: url(Images/sides.png);
+    border: none;
+    text-decoration: none;
+}
+.sides:hover {
+    background-image: url(Images/sidesSelected.png);
+}
+
+.chips {
+    display: block;
+    width: 150px;
+    height: 147px;
+    background-image: url(Images/chips.png);
+    border: none;
+    text-decoration: none;
+}
+.chips:hover {
+    background-image: url(Images/chipsSelected.png);
+}
+
+h1 {
+    text-indent:-9999px;
+    background: url(images/logo.png) no-repeat;
+    width: 340px;
+    height:92px;
+    margin: 0 auto;
+}
+#slideshowContainer {
+    width: 632px;
+    margin: 100px auto 0 auto;
+    position:relative;
+}
+.slideshow {
+    height: 332px;
+}
+.slideshow img {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+#nav {
+    list-style-type:none;
+    z-index:150;
+}
+#nav li a {
+    display:block;
+    width:58px;
+    height:102px;
+    text-indent:-9999px;
+    outline:none;
+}
+#prev a {
+    background:url(images/left.png);
+    width:58px;
+    height:102px;
+    position:absolute;
+    top:220px;
+    left:-70px;
+}
+#next a {
+    background:url(images/right.png);
+    width:58px;
+    height:102px;
+    position:absolute;
+    top:220px;
+    right:-70px;
+}
+#next a:hover {
+    background:url(images/right_over.png);
+}
+#prev a:hover {
+    background:url(images/left_over.png);
+}
+
+.noChange
+{
+     text-decoration: none;  
+     color: #acacac;
+}
+
+a.whiteSrc:hover {
+
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.whiteSrc:link {
+    color: white;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.whiteSrc:visited {
+    color: white;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+
+a.orangeSrc:hover {
+
+    color: orange;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.orangeSrc:link {
+    color: orange;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.orangeSrc:visited {
+    color: orange;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.alertWindow {
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a.alertWindow:hover {
+    position: relative;
+}
+a.alertWindow1:hover:before 
+{ content: "";
+  position: absolute;
+  z-index: 1;
+  top: 225px;
+  left: 120px;
+  width: 75px;
+  height: 50px;
+  background: #000;
+  transform: rotate(45deg);
+  border-radius: 25px 0 0 30px;
+}
+a.alertWindow:hover:after {
+    content: attr(title);
+    padding: 14px 8px;
+    color: #333;
+    position: absolute;
+    left: 20px;
+    top: 100%;
+    white-space: nowrap;
+    z-index: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
+
+.skyblue
+{
+    color: skyblue;
+    
+}
+a.skyblue:hover {
+
+    color: skyblue;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.skyblue:link {
+    color: skyblue;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.skyblue:visited {
+    color: skyblue;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.blue:hover {
+
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.blue:link {
+    color: blue;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+a.blue:visited {
+    color: blue;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
